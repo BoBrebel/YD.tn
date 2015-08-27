@@ -1,0 +1,81 @@
+[09-Jul-2015 14:23:09 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling POST https://www.googleapis.com/admin/directory/v1/users: (409) Entity already exists.' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[09-Jul-2015 14:23:17 Africa/Tunis] PHP Notice:  Undefined variable: email_to in /home/ydtn/public_html/controller/check.php on line 117
+[09-Jul-2015 15:58:09 Africa/Tunis] PHP Notice:  Undefined index: inclusion in /home/ydtn/public_html/controller/addClient.php on line 58
+[09-Jul-2015 15:58:09 Africa/Tunis] PHP Warning:  Invalid argument supplied for foreach() in /home/ydtn/public_html/controller/addClient.php on line 58
+[09-Jul-2015 16:13:34 Africa/Tunis] PHP Notice:  Undefined variable: new_prenom in /home/ydtn/public_html/controller/check.php on line 123
+[09-Jul-2015 16:13:34 Africa/Tunis] PHP Notice:  Undefined variable: new_nom in /home/ydtn/public_html/controller/check.php on line 123
+[10-Jul-2015 16:29:57 Africa/Tunis] PHP Notice:  Undefined index: inclusion in /home/ydtn/public_html/controller/addClient.php on line 58
+[10-Jul-2015 16:29:57 Africa/Tunis] PHP Warning:  Invalid argument supplied for foreach() in /home/ydtn/public_html/controller/addClient.php on line 58
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/qrgen.php on line 39
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: prenom in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: nom in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: date_naissance in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: sexe in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: email in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: adresse in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:56 Africa/Tunis] PHP Notice:  Undefined index: statut in /home/ydtn/public_html/controller/qrgen.php on line 40
+[14-Jul-2015 14:06:57 Africa/Tunis] PHP Notice:  Undefined index: statut in /home/ydtn/public_html/controller/qrgen.php on line 87
+[14-Jul-2015 14:06:57 Africa/Tunis] PHP Notice:  Undefined index:  in /home/ydtn/public_html/controller/pdf/fpdi.php on line 195
+[14-Jul-2015 14:06:57 Africa/Tunis] PHP Fatal error:  Call to a member function setPageNo() on a non-object in /home/ydtn/public_html/controller/pdf/fpdi.php on line 196
+[14-Jul-2015 14:07:07 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 78
+[14-Jul-2015 14:07:07 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 79
+[14-Jul-2015 14:07:07 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling POST https://www.googleapis.com/admin/directory/v1/users: (400) Invalid Given/Family Name: FamilyName' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Obj in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[14-Jul-2015 14:09:02 Africa/Tunis] PHP Notice:  Undefined index:  in /home/ydtn/public_html/controller/pdf/fpdi.php on line 195
+[14-Jul-2015 14:09:02 Africa/Tunis] PHP Fatal error:  Call to a member function setPageNo() on a non-object in /home/ydtn/public_html/controller/pdf/fpdi.php on line 196
+[16-Jul-2015 14:00:56 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 78
+[16-Jul-2015 14:00:56 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 79
+[16-Jul-2015 14:00:57 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling POST https://www.googleapis.com/admin/directory/v1/users: (400) Invalid Given/Family Name: FamilyName' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Obj in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: prenom in /home/ydtn/public_html/controller/addClient.php on line 5
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: nom in /home/ydtn/public_html/controller/addClient.php on line 6
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/addClient.php on line 7
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: sexe in /home/ydtn/public_html/controller/addClient.php on line 8
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: date_naissance_submit in /home/ydtn/public_html/controller/addClient.php on line 9
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: adresse in /home/ydtn/public_html/controller/addClient.php on line 10
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: zipcode in /home/ydtn/public_html/controller/addClient.php on line 10
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: delegation in /home/ydtn/public_html/controller/addClient.php on line 10
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: gouvernorat in /home/ydtn/public_html/controller/addClient.php on line 10
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: yd_mail in /home/ydtn/public_html/controller/addClient.php on line 11
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: email in /home/ydtn/public_html/controller/addClient.php on line 12
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: statut in /home/ydtn/public_html/controller/addClient.php on line 13
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: file in /home/ydtn/public_html/controller/addClient.php on line 15
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: file in /home/ydtn/public_html/controller/addClient.php on line 35
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Notice:  Undefined index: inclusion in /home/ydtn/public_html/controller/addClient.php on line 58
+[16-Jul-2015 14:01:46 Africa/Tunis] PHP Warning:  Invalid argument supplied for foreach() in /home/ydtn/public_html/controller/addClient.php on line 58
+[16-Jul-2015 14:01:47 Africa/Tunis] PHP Notice:  Undefined index:  in /home/ydtn/public_html/controller/pdf/fpdi.php on line 195
+[16-Jul-2015 14:01:47 Africa/Tunis] PHP Fatal error:  Call to a member function setPageNo() on a non-object in /home/ydtn/public_html/controller/pdf/fpdi.php on line 196
+[16-Jul-2015 14:02:42 Africa/Tunis] PHP Notice:  Undefined index:  in /home/ydtn/public_html/controller/pdf/fpdi.php on line 195
+[16-Jul-2015 14:02:42 Africa/Tunis] PHP Fatal error:  Call to a member function setPageNo() on a non-object in /home/ydtn/public_html/controller/pdf/fpdi.php on line 196
+[16-Jul-2015 14:02:47 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 78
+[16-Jul-2015 14:02:47 Africa/Tunis] PHP Notice:  Undefined index: cin in /home/ydtn/public_html/controller/check.php on line 79
+[16-Jul-2015 14:02:48 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling POST https://www.googleapis.com/admin/directory/v1/users: (400) Invalid Given/Family Name: FamilyName' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Obj in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 15:10:29 Africa/Tunis] PHP Notice:  Undefined index: inclusion in /home/ydtn/public_html/controller/addClient.php on line 58
+[16-Jul-2015 15:10:29 Africa/Tunis] PHP Warning:  Invalid argument supplied for foreach() in /home/ydtn/public_html/controller/addClient.php on line 58

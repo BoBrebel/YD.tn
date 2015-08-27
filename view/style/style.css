@@ -1,0 +1,282 @@
+#form label{
+	font-size: 1rem;
+	display:inline;
+}
+.file-field input.file-path
+{
+	width:75%;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+
+{
+	border-bottom: 1px solid #99C00F;
+	box-shadow: 0 1px 0 0 #99C00F;
+	color: #99C00F;
+
+
+}
+
+input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label
+{
+	color: #99C00F;
+}
+input[type=submit]
+{
+
+	-webkit-appearance: button;
+	cursor: pointer;
+	border:0;
+	padding:0;
+}
+input[type=checkbox]:checked
+{
+	color: #99C00F;
+	background-color:#99C00F;
+}
+.file-field input.file-path{
+	margin-left: 25%;
+}
+
+.btn{
+	background-color:#99C00F;
+}
+
+.card .card-action a{
+	color : #FFFFFF;
+}
+.card .card-action a:hover{
+	color : #E6BDFE
+}
+
+.btn:hover{
+	background-color:#99C00F;
+}
+
+.form a{
+	color:#99C00F;
+}
+.brand-logo{
+	height: 100%;
+}
+.picker__date-display
+{
+	background-color: #99C00F;
+}
+.picker__weekday-display
+{
+	background-color: #99C00F;
+}
+.picker__close,.picker__today
+{
+	color: #99C00F;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected
+{
+	background-color: #99C00F;
+}
+nav{
+	background-color: rgba(37, 37, 37, 0.952941);
+}
+nav .collapsible-header
+{
+	color: #444;
+	display: block;
+	font-size: 1rem;
+	height: 64px;
+	line-height: 64px;
+	padding: 0 15px;
+}
+[type="radio"]:checked + label:after
+{
+	border : 2px solid #99C00F ;
+	background-color: #99C00F;
+}
+[type="checkbox"]:checked + label:before
+{
+	border-top: 2px solid transparent;
+	border-left: 2px solid transparent;
+	border-right: 2px solid #99C00F ;
+	border-bottom: 2px solid #99C00F ;
+}
+#home
+{
+	background: url(../images/background.jpg) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 10%;
+}
+#home .container
+{
+	height:100%;
+	width:100%;
+	margin:0px;
+	text-align: center;
+	margin-right: 0px;
+	max-width: none;
+	/*box-sizing:content-box;*/
+}
+.container h1
+{
+	margin: 0px;
+	padding-top: 10%;
+	color:#FFFFFF;
+}
+.container p
+{
+
+	color:#FFFFFF;
+}
+#home a
+{
+	background-color: #99C00F;
+	margin-top: 10%;
+}
+footer.page-footer
+{
+	background-color:  rgba(37, 37, 37, 0.952941);
+}
+footer ul li
+{
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+}
+.ion-social-facebook
+{
+font-size: 48px;
+}
+.ion-social-googleplus
+{
+	font-size: 48px;
+}
+
+.ion-social-youtube
+{
+	font-size: 48px;
+}
+.btn-floating
+{
+	background-color:  #99C00F;
+}
+.btn-floating:hover
+{
+	background-color:  #99C00F;
+}
+nav .dropdown-content ul li{
+margin:2px;
+}
+nav input[type=submit]
+{
+width:100%;
+}
+nav input[type=text]
+{
+width:75%;
+text-align:center;
+}
+.dropdown-content
+{
+background-color: rgba(37, 37, 37, 0.952941);
+}
+#search #logo{
+	width:100%;
+}
+#search input[type=text]:focus
+{
+	border-bottom: 1px solid #99C00F;
+	box-shadow: 0 1px 0 0 #99C00F;
+}
+#search .btn
+{
+background-color: #99C00F;
+}
+
+#modal1{
+height:60%;
+width:20%;
+}
+
+#modal1 h4{
+margin-top:5%;
+}
+#modal2 {
+  background-color: transparent;
+  overflow-y: visible;
+  box-shadow:none;
+}
+@media only screen and (max-width: 600px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 {
+    width: 20%;
+  }
+}
+/* line 18, ../sass/screen.scss */
+#modal2 .modal-content {
+  padding: 0;
+  width: 100%;
+}
+/* line 21, ../sass/screen.scss */
+#modal2 .modal-content #back {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 .modal-content h2 {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-size: 2rem;
+  color: rgba(255,255,255,1);
+}
+}
+@media only screen and (min-width: 993px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 .modal-content h2 {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  font-size: 2rem;
+  color: rgba(255,255,255,1);
+}
+}
+@media only screen and (max-width: 600px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 .modal-content p {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  color: rgba(255,255,255,1);
+}
+}
+@media only screen and (min-width: 993px) {
+  /* line 9, ../sass/screen.scss */
+  #modal2 .modal-content p {
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  color: rgba(255,255,255,1);
+}
+}
+/* line 33, ../sass/screen.scss */
+#modal2 #profile_pic 
+{
+  width: 100%;
+  position: relative;
+}
+#modal2 .modal-footer
+{
+	background-color: transparent;
+}
+#claim .dropdown-content
+{
+background-color: #FFF;
+color : #FFF;
+}

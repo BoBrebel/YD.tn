@@ -1,0 +1,72 @@
+[16-Jul-2015 18:11:42 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 18:12:03 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 18:14:29 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 18:15:20 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 19:28:08 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 19:29:45 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 19:32:01 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110
+[16-Jul-2015 19:32:39 Africa/Tunis] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/admin/directory/v1/users/: (400) Bad Request' in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/ydtn/public_html/controller/google-api/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/ydtn/public_html/controller/google-api/src/Google/Client.php(590): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/ydtn/public_html/controller/google-api/src/Google/Service/Resource.php(237): Google_Client->execute(Object(Google_Http_Request))
+ in /home/ydtn/public_html/controller/google-api/src/Google/Http/REST.php on line 110

@@ -1,0 +1,2 @@
+[16-Jul-2015 18:08:43 Africa/Tunis] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ydtn/public_html/model/ticketModel.php on line 28
+[16-Jul-2015 18:08:45 Africa/Tunis] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ydtn/public_html/model/ticketModel.php on line 28
